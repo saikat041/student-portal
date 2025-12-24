@@ -1,0 +1,22 @@
+node_modules
+.env
+.DS_Store
+*.log
+dist
+build
+.cache
+.vscode
+.idea
+
+# Backend specific
+backend/node_modules
+backend/.env
+backend/logs
+
+# Frontend specific  
+frontend/node_modules
+frontend/build
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
